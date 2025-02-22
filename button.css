@@ -1,0 +1,13 @@
+.bu{
+    width: 100px;
+    height: 50px;
+    color:white;
+    background-color: red;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: width 0%;;
+    cursor: pointer;
+    box-shadow: 2px rgb(255, 248, 248);
+    border-color: red;
+    border-radius: 9px;
+}
