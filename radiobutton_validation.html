@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hithen
+        {
+            width: 500px;
+            height: 70px;
+            margin-left: 90px;
+            margin-top: 90px;
+            margin-right: 90px;
+            border-style: solid;
+            border-color: black;
+            background-color: antiquewhite;
+            line-height: 8px;
+        }
+        #ki
+        {
+            margin-left: 30px;
+            margin-top:8px;
+            line-height: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="hithen" >
+        <form name="n1" action="" method="get" onsubmit="sai()" >
+            <label for name="hit" >male</label>
+            <input type="radio" id="gi" name="k1" value="" >
+            <label for name="sit" >female</label>
+            <input type="radio" id="gi" name="k1" value=""  >
+             <label for name="kit" >prefer not to say</label>
+            <input type="radio" id="gi" name="k1" value=""  style="margin-top: 20px;" >
+            <br>
+            <input type="submit" id="ki" name="hi" value="submit"  >
+
+       </form>
+    </div>
+    
+    
+</body>
+</html>
+<script>
+    let x = document.forms["n1"]["k1"].value;
+   let y = document.forms["n1"]["k1"].value;
+   let z = document.forms["n1"]["k1"].value;
+
+    function sai()
+    {
+        if(x=="" || y==""||z=="")
+        {
+            alert(" click on anyone option on radio button ");
+            return false;
+        }
+    }
+
+</script>
+
+    

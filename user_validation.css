@@ -1,0 +1,14 @@
+#git{
+    width: 500px;
+    height: 500px;
+    object-position: 2px ;
+    /* padding-bottom:5px;
+    padding: 2px;
+    align-items: center;
+    margin-left: 700px;
+    flex-flow: column;
+    margin-bottom: 600px; */
+    margin-top: 600px;
+    border-style: solid;
+    
+}

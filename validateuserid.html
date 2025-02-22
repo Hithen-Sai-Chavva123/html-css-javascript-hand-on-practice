@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link src="C:\Users\PC\Desktop\c languge\user_validation.js"e>
+  <style>
+    #git{
+      
+        
+        border-style: solid;
+         border-color:black; 
+        background-color: bisque;
+        line-height: 9px;
+        width: 500px;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 400px;
+        padding-top: 80px;
+        
+    }
+   </style>
+    
+</head>
+<body>
+    <div id="git" >
+        <form name="mit" action="" method="get" onsubmit="sai()" align="center">
+            <label for name="hit" >User Id:</label>
+            <input type="text" name="hit" value=""  >
+            <br>
+            <br>
+           
+            <label for name="sit" >password:</label>
+            <input type="text" name="sit" value="" maxlength ="8" align="center" >
+            <br>
+            <input type="submit" name="kit" value="submit" align="center" style="margin-top: 20px;" >
+       </form>
+    </div>
+    
+</body>
+</html>
+<script >
+   let x = document.forms["mit"]["hit"].value;
+   let y = document.forms["mit"]["sit"].value;
+
+    function sai()
+    {
+        if(x=="" || y=="")
+        {
+            alert("it is an invalid userid and password");
+            return false;
+        }
+    }
+</script>
